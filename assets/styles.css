@@ -1,0 +1,92 @@
+
+
+/* custom radio button color in bootstrap */
+
+.form-check-input{
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #000000 !important;
+}
+
+.closedstatus.form-check-input:checked {
+  background-color: red !important;
+}
+
+.activestatus.form-check-input:checked{
+  background-color: green !important;
+
+}
+
+
+
+.box{
+  padding: 20px 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.active > .page-link, .page-link.active{
+ z-index: 4;
+ outline: none !important;
+  box-shadow: none !important;
+
+color: #cdcfe1 !important;
+background-color:#212529 !important;
+  border-color: #ffffff !important;
+
+}
+
+.page-link{
+background-color:#2f3642 !important;
+color: #cdcfe1 !important;
+
+
+}
+
+
+.form-select{
+     outline: none !important;
+  box-shadow: none !important;
+  border-color: #000000 !important;
+
+
+}
+
+.form-control{
+     outline: none !important;
+  box-shadow: none !important;
+  border-color: #000000 !important;
+ 
+
+}
+
+
+div.dataTables_wrapper div.dataTables_filter input{
+    background-color: #6c757d !important;
+    color: white !important;
+}
+
+div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child{
+    padding-right: unset !important;
+    padding-left: 0 !important;
+}
+
+  @media screen and (max-width: 767px){
+  div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper 
+    div.dataTables_paginate {
+        text-align: left !important;
+   }
+
+}
+
+
+div.dataTables_wrapper div.dataTables_length select{
+        background-color: #6c757d !important;
+        color: white !important;
+}
+
+
+
+.table-responsive{
+  scrollbar-width: none
+}
